@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div>
       <div>
-          <div>
+          <div className='flex'>
           <img className='w-40' src="http://i.imgur.com/zqpwkLQ.png" alt="" />
            </div>
 
