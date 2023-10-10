@@ -1,18 +1,18 @@
 import React from 'react'
-import Sidebar from '../Components/SideBar/Sidebar'
+import Sidebar from '../../Components/SideBar/Sidebar'
 import { Routes, Route } from 'react-router-dom'
-import HomePage from './HomePage/HomePage'
+import HomePage from '../HomePage/HomePage'
 
 const Router = () => {
   return (
     <div>
-      <div className='flex'>
+      <div className="flex">
         <div>
-        <Sidebar/>
+        <Sidebar />
         </div>
         <div>
         <Routes>
-      <Route path='/' element={<HomePage/>}></Route>
+      <Route path="/" element={<HomePage />}></Route>
         </Routes>
         </div>
       </div>
